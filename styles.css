@@ -2,7 +2,13 @@ body {
 		background-color: green;
 		color: white;
 	}
+	/*on index page */
 .banner_img {
 				height: 200px;
 				width: 600px;
 			}
+	/*on start page */
+.image_golfer{
+					height: 200px;
+					width: 225px;
+				}
