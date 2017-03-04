@@ -1,12 +1,21 @@
 body {
 		background: url("images/background.png") no-repeat center center fixed;
 		background-size: cover;
+		border: 2px;
+		border-radius: 5px;
 		color: white;
+		padding: 5px;
+		max-width: 900px;
+    	margin: 0 auto;
+
+	}
+	/*for universal changes to are headers*/
+	h1, h3, h4 {
+		text-shadow: 2px 2px black;
 	}
 	/*main page into*/
 	h1 {
-		border: 2px;
-		padding: 5px;
+		
 	}
 	/*article intro or section intro*/ 
 	h3 {
@@ -18,46 +27,57 @@ body {
 	}
 	/*on index page */
 .banner_img {
-				height: 200px;
-				width: 600px;
-			}
+	height: 200px;
+	width: 600px;
+}
 	/*on start page */
-.image_golfer{
-					height: 200px;
-					width: 225px;
-				}
-
-	/*for universal changes */
-.page_header .main_article .sub_section .div_sub_section .page_footer {
-	border: 2px;
-	background-color: green;
-	opacity: 0.5;
+.image_golfer {
+	height: 200px;
+	width: 225px;
+}
+.links_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+/* nav .link_list	li {
+	list-style-image: none;
+}*/
+/*for universal changes to are main sections*/
+.page_header, .main_article, .sub_section, .div_sub_section, .page_footer {
+	border: 2px solid black;
+	border-radius: 25px;
+	background: rgba(76, 175, 80, 0.6);
+	padding: 10px;
+	
 }
 	/*this is the main page header*/
 .page_header  {
-
+	text-align: center;
 }
 
 	/*this is used for the main article*/
 .main_article  {
-
+	margin: 5%;
 }
 
 	/*this is used for a sub section of a main article*/
 .sub_section  {
-
+	margin: 3%;
 }
 
 	/*this is used for a sub section of a section of a main article*/
 .div_sub_section {
-
+	margin: 2.5%;
 }
 	/*this is use for the main page footer */
 .page_footer {
-
+	text-align: center;
 }
 @media screen and (max-width: 700px) {
   body {
     font-size: .8em;
   }
+  .links_table {
+
+	}
 }
