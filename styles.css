@@ -1,5 +1,6 @@
 body {
-		background-color: green;
+		background: url("images/background.png") no-repeat center center fixed;
+		background-size: cover;
 		color: white;
 	}
 	/*on index page */
