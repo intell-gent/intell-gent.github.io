@@ -12,3 +12,7 @@ body {
 					height: 200px;
 					width: 225px;
 				}
+.page-h1 {
+	border: 2px;
+	padding: 5px;
+}
