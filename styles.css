@@ -38,8 +38,8 @@ body {
 	}
 	/*on index page */
 .banner_img {
-	height: 200px;
-	width: 600px;
+	max-height: 200px;
+	max-width: 900px;
 }
 	/*on start page */
 .image_golfer {
