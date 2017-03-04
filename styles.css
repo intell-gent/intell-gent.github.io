@@ -3,6 +3,19 @@ body {
 		background-size: cover;
 		color: white;
 	}
+	/*main page into*/
+	h1 {
+		border: 2px;
+		padding: 5px;
+	}
+	/*article intro or section intro*/ 
+	h3 {
+		
+	}
+	/*a sub section of a section*/ 
+	h4 {
+
+	}
 	/*on index page */
 .banner_img {
 				height: 200px;
@@ -13,7 +26,38 @@ body {
 					height: 200px;
 					width: 225px;
 				}
-.page-h1 {
+
+	/*for universal changes */
+.page_header .main_article .sub_section .div_sub_section .page_footer {
 	border: 2px;
-	padding: 5px;
+	background-color: green;
+	opacity: 0.5;
+}
+	/*this is the main page header*/
+.page_header  {
+
+}
+
+	/*this is used for the main article*/
+.main_article  {
+
+}
+
+	/*this is used for a sub section of a main article*/
+.sub_section  {
+
+}
+
+	/*this is used for a sub section of a section of a main article*/
+.div_sub_section {
+
+}
+	/*this is use for the main page footer */
+.page_footer {
+
+}
+@media screen and (max-width: 700px) {
+  body {
+    font-size: .8em;
+  }
 }
