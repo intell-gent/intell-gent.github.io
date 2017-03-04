@@ -12,10 +12,21 @@ body {
 	/*for universal changes to are headers*/
 	h1, h3, h4 {
 		text-shadow: 2px 2px black;
+		font-family: serif;
+	}
+	a {
+		color: red;
+	}
+	a:visited {
+		color: darkred;
 	}
 	/*main page into*/
 	h1 {
 		
+	}
+	/*the main paragraphs*/
+	p {
+		font-family: helvetica;
 	}
 	/*article intro or section intro*/ 
 	h3 {
@@ -39,14 +50,14 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* nav .link_list	li {
-	list-style-image: none;
-}*/
+ #link_list {
+	list-style: none;
+}
 /*for universal changes to are main sections*/
 .page_header, .main_article, .sub_section, .div_sub_section, .page_footer {
 	border: 2px solid black;
 	border-radius: 25px;
-	background: rgba(76, 175, 80, 0.6);
+	background: rgba(76, 150, 80, 0.6);
 	padding: 10px;
 	
 }
@@ -63,21 +74,21 @@ body {
 	/*this is used for a sub section of a main article*/
 .sub_section  {
 	margin: 3%;
+	background: rgba(0, 75, 0, 0.6);
 }
 
 	/*this is used for a sub section of a section of a main article*/
 .div_sub_section {
 	margin: 2.5%;
+	background-color: rgba(0, 0, 45, 0.9);
 }
 	/*this is use for the main page footer */
 .page_footer {
 	text-align: center;
 }
+
 @media screen and (max-width: 700px) {
   body {
-    font-size: .8em;
+    font-size: 0.8em;
   }
-  .links_table {
-
-	}
 }
